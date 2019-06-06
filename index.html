@@ -14,6 +14,34 @@
         <title>DARIUS JONES</title>
         
         <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+    
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  border: solid 1px white;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click <b>HERE</b> for information about me</div>
+    <div id="panel"> <em>  Greetings, My name is Darius Jones and I am a recent graduate from The University of North Carolina at Charlotte. I’ve decided to share this website with you to demonstrate my skills in HTML, CSS, and javascript. I’ve received a degree in Communications but had the chance to get familiar with Front-End Development throughout my teen and college years. As college went on I tried looking for the perfect career that would fit me best. Even though I was looking at careers in my major, I was fooling around with web design on the side outside of my major, which I really enjoyed. I took a few online courses for Front End Web Development such as CodeAcademy and Teamtreehouse to advance my skills a bit and I am still working to get better at Front End development each day.</em></div>
 
     </head>
     <body>
